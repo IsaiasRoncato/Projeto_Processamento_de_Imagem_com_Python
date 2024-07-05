@@ -11,8 +11,10 @@ Agora, para disponibilizar seu pacote no PyPI, você precisa seguir estes passos
 
 Insira estas linhas de Códigos:
 
-#Crie uma distribuição do seu pacote
+#Crie uma distribuição do seu pacote:
+
 python setup.py sdist bdist_wheel
 
-#Faça upload para o PyPI (será solicitado seu usuário e senha do PyPI)
+#Faça upload para o PyPI (será solicitado seu usuário e senha do PyPI):
+
 twine upload dist/*
